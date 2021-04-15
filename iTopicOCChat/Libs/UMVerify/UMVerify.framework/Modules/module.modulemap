@@ -1,0 +1,6 @@
+framework module UMVerify {
+  umbrella header "UMVerify.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B4DB06B5-E06E-4440-9FD2-311D47FAB0C1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iTopic</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1093ffd6-5176-4f8f-8087-ff48716b0175++7207</key>
+		<string>http://code.taobao.org/svn/iTopic/trunk/iTopic</string>
+		<key>e54a2e5f-b522-4e19-863a-77aac97533a5++5326</key>
+		<string>http://182.92.152.227/svn/pp/ios</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iTopic.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1093ffd6-5176-4f8f-8087-ff48716b0175++7207</key>
+		<string>..</string>
+		<key>e54a2e5f-b522-4e19-863a-77aac97533a5++5326</key>
+		<string>../../pinpin</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>1093ffd6-5176-4f8f-8087-ff48716b0175++7207</key>
+		<string>http://code.taobao.org/svn/iTopic</string>
+		<key>e54a2e5f-b522-4e19-863a-77aac97533a5++5326</key>
+		<string>http://182.92.152.227/svn/pp</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://code.taobao.org/svn/iTopic/trunk/iTopic/iTopic.xcworkspace</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1093ffd6-5176-4f8f-8087-ff48716b0175++7207</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1093ffd6-5176-4f8f-8087-ff48716b0175++7207</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iTopic</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>e54a2e5f-b522-4e19-863a-77aac97533a5++5326</string>
+			<key>IDESourceControlWCCName</key>
+			<string>pinpin</string>
+		</dict>
+	</array>
+</dict>
+</plist>

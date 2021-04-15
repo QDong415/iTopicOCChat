@@ -1,0 +1,28 @@
+//
+//  PrefixHeader.pch
+//  iTopic
+//
+//  Created by DongJin on 15-7-8.
+//  Copyright (c) 2015年 DongQi. All rights reserved.
+//
+
+#ifndef iTopic_PrefixHeader_pch
+#define iTopic_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+//工具类
+#import "UserManager.h"
+#import "JsonParser.h"
+#import "Network.h"
+#import "ProgressHUD.h"
+#import "UIImageView+WebCache.h"
+//#import "UIView+shake.h"
+
+//全局的定义
+#import "AppCommonDefine.h"
+
+#endif

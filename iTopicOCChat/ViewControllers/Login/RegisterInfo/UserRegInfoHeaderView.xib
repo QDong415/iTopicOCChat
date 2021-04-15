@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="MXW-LG-W1R" userLabel="UserRegInfoHeaderView" customClass="UserRegInfoHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="188"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user_photo_circle" translatesAutoresizingMaskIntoConstraints="NO" id="R8H-H3-6df">
+                    <rect key="frame" x="125" y="8" width="125" height="125"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="125" id="gu5-Hy-Jhz"/>
+                        <constraint firstAttribute="width" constant="125" id="rtl-8m-JX1"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="*请上传头像" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HCg-1Y-daR">
+                    <rect key="frame" x="132.5" y="139" width="110" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="pNG-jD-ETd"/>
+                        <constraint firstAttribute="width" constant="110" id="rI2-Rv-DNC"/>
+                        <constraint firstAttribute="width" constant="120" id="ysG-7e-O7F"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.52964758869999995" green="0.52963173389999996" blue="0.52964073420000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="ysG-7e-O7F"/>
+                        </mask>
+                    </variation>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="HCg-1Y-daR" firstAttribute="centerX" secondItem="MXW-LG-W1R" secondAttribute="centerX" id="C1Y-Nw-prT"/>
+                <constraint firstItem="R8H-H3-6df" firstAttribute="centerX" secondItem="MXW-LG-W1R" secondAttribute="centerX" id="TUH-sD-djv"/>
+                <constraint firstItem="R8H-H3-6df" firstAttribute="top" secondItem="MXW-LG-W1R" secondAttribute="top" constant="8" id="cX6-gE-ILj"/>
+                <constraint firstItem="HCg-1Y-daR" firstAttribute="top" secondItem="R8H-H3-6df" secondAttribute="bottom" constant="6" id="ssG-D7-YSt"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="avatarImageView" destination="R8H-H3-6df" id="P1G-Bd-j4B"/>
+                <outlet property="avatarLabel" destination="HCg-1Y-daR" id="h2D-AE-Va8"/>
+            </connections>
+            <point key="canvasLocation" x="130.40000000000001" y="370.61469265367322"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="user_photo_circle" width="115" height="115"/>
+    </resources>
+</document>

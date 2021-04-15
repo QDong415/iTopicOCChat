@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="296" id="FMP-li-XUx" userLabel="MineTabHeader" customClass="MineTabHeader">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="296"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="FMP-li-XUx" id="PDJ-ae-s9I">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="296"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wSP-Qn-osS">
+                        <rect key="frame" x="12" y="118" width="351" height="162"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="未登录" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kcj-0L-zXi">
+                                <rect key="frame" x="146.5" y="76" width="58.5" height="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="粉丝 0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6g3-TZ-K04" userLabel="fansLabel">
+                                <rect key="frame" x="184" y="110" width="47" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="rM6-IY-gdL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.40000003579999999" green="0.40000003579999999" blue="0.40000003579999999" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yOc-9i-JeT" userLabel="middleLabel">
+                                <rect key="frame" x="175" y="117" width="1" height="16"/>
+                                <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="deviceRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="IpG-6c-eNN"/>
+                                    <constraint firstAttribute="height" constant="23" id="R4b-2B-AAP"/>
+                                    <constraint firstAttribute="width" constant="1" id="U6k-y4-YU5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <color key="textColor" red="0.32584699989999999" green="0.32583722469999998" blue="0.32584279779999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="R4b-2B-AAP"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="关注 0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kpj-Rx-n3a" userLabel="followsLabel">
+                                <rect key="frame" x="120" y="110" width="47" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Maa-gj-yhK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.40000003579999999" green="0.40000003579999999" blue="0.40000003579999999" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Kcj-0L-zXi" firstAttribute="centerX" secondItem="wSP-Qn-osS" secondAttribute="centerX" id="6NQ-ht-DTc"/>
+                            <constraint firstItem="yOc-9i-JeT" firstAttribute="top" secondItem="Kcj-0L-zXi" secondAttribute="bottom" constant="18" id="6ZB-7F-J5L"/>
+                            <constraint firstItem="6g3-TZ-K04" firstAttribute="leading" secondItem="yOc-9i-JeT" secondAttribute="trailing" constant="8" id="7He-hw-kUa"/>
+                            <constraint firstItem="yOc-9i-JeT" firstAttribute="centerY" secondItem="6g3-TZ-K04" secondAttribute="centerY" id="Zd9-Zc-AFf"/>
+                            <constraint firstItem="Kcj-0L-zXi" firstAttribute="top" secondItem="wSP-Qn-osS" secondAttribute="top" constant="76" id="iNQ-oC-Qbi"/>
+                            <constraint firstItem="yOc-9i-JeT" firstAttribute="leading" secondItem="Kpj-Rx-n3a" secondAttribute="trailing" constant="8" id="mHz-UF-OgM"/>
+                            <constraint firstItem="yOc-9i-JeT" firstAttribute="centerX" secondItem="wSP-Qn-osS" secondAttribute="centerX" id="mLs-CW-f1w"/>
+                            <constraint firstItem="yOc-9i-JeT" firstAttribute="centerY" secondItem="Kpj-Rx-n3a" secondAttribute="centerY" id="pzQ-hX-ffO"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mine_avatar_bg" translatesAutoresizingMaskIntoConstraints="NO" id="qdj-Ip-bVV">
+                        <rect key="frame" x="129.5" y="63" width="116" height="116"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="116" id="Ikk-kA-F1b"/>
+                            <constraint firstAttribute="height" constant="116" id="qfI-ax-d8G"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user_photo_circle" translatesAutoresizingMaskIntoConstraints="NO" id="ZBq-e4-Q7o">
+                        <rect key="frame" x="134.5" y="65" width="106" height="106"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="106" id="ADG-Fr-SWb"/>
+                            <constraint firstAttribute="height" constant="106" id="q4H-Js-F5E"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="53"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="wSP-Qn-osS" firstAttribute="top" secondItem="PDJ-ae-s9I" secondAttribute="top" constant="118" id="JyT-nP-cXC"/>
+                    <constraint firstItem="qdj-Ip-bVV" firstAttribute="top" secondItem="PDJ-ae-s9I" secondAttribute="top" constant="63" id="KHP-FP-vdD"/>
+                    <constraint firstItem="ZBq-e4-Q7o" firstAttribute="top" secondItem="PDJ-ae-s9I" secondAttribute="top" constant="65" id="Lc3-AS-YOT"/>
+                    <constraint firstItem="ZBq-e4-Q7o" firstAttribute="centerX" secondItem="PDJ-ae-s9I" secondAttribute="centerX" id="S4f-ut-Dcy"/>
+                    <constraint firstItem="qdj-Ip-bVV" firstAttribute="centerX" secondItem="PDJ-ae-s9I" secondAttribute="centerX" id="dZW-Yq-PCT"/>
+                    <constraint firstAttribute="trailing" secondItem="wSP-Qn-osS" secondAttribute="trailing" constant="12" id="nMt-wR-Iej"/>
+                    <constraint firstItem="wSP-Qn-osS" firstAttribute="leading" secondItem="PDJ-ae-s9I" secondAttribute="leading" constant="12" id="nlm-b2-WEv"/>
+                    <constraint firstAttribute="bottom" secondItem="wSP-Qn-osS" secondAttribute="bottom" constant="16" id="ttR-fQ-xnj"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="bgView" destination="wSP-Qn-osS" id="O9z-Sz-z6V"/>
+                <outlet property="fansLabel" destination="6g3-TZ-K04" id="XWP-0L-tpn"/>
+                <outlet property="followLabel" destination="Kpj-Rx-n3a" id="QJr-Oi-wch"/>
+                <outlet property="userImageView" destination="ZBq-e4-Q7o" id="zBI-mH-SQC"/>
+                <outlet property="userNameLabel" destination="Kcj-0L-zXi" id="5ag-VV-tII"/>
+            </connections>
+            <point key="canvasLocation" x="-231.19999999999999" y="243.77811094452775"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="mine_avatar_bg" width="100" height="100"/>
+        <image name="user_photo_circle" width="178.5" height="178.5"/>
+    </resources>
+</document>
